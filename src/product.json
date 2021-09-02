@@ -1,0 +1,124 @@
+[
+    {
+        "img": "",
+        "title": "Rápida",
+        "description": "Aspiradora de mano",
+        "price": "396.000",
+        "color_style": "white",
+        "id": "1",
+        "category": "Equipo(1)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Aera",
+        "description": "Purificador de Aire",
+        "price": "517.000",
+        "color_style": "blue",
+        "id": "2",
+        "category": "Equipo(1)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Limpia Vidrios",
+        "description": "Accesorios para Vidrios",
+        "price": "396.000",
+        "color_style": "white",
+        "id": "3",
+        "category": "Accesorio(2)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Cepillo Mascota",
+        "description": "Aspira y Peina Mascotas",
+        "price": "207.000",
+        "color_style": "blue",
+        "id": "4",
+        "category": "Accesorio(2)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Libra",
+        "description": "Balanza de cocina",
+        "price": "140.000",
+        "color_style": "white",
+        "id": "5",
+        "category": "Equipo(1)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Nimbus",
+        "description": "Lavado de alfombras",
+        "price": "1.242.000",
+        "color_style": "blue",
+        "id": "6",
+        "category": "Accesorio(2)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Shampoo Pisos",
+        "description": "El mejor aliado del Nimbus",
+        "price": "85.000",
+        "color_style": "white",
+        "id": "7",
+        "category": "Aromas y Esencias(3)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Set de Mopas",
+        "description": "Mientras aspiras, trapeas",
+        "price": "352.000",
+        "color_style": "blue",
+        "id": "8",
+        "category": "Accesorio(2)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Set Esencias",
+        "description": "Brisa Primavera, Kiwi, Manzana y Naranja",
+        "price": "77.000",
+        "color_style": "white",
+        "id": "9",
+        "category": "Aromas y Esencias(3)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Desodorante",
+        "description": "Elimina los malos olores",
+        "price": "77.000",
+        "color_style": "blue",
+        "id": "10",
+        "category": "Aromas y Esencias(3)",
+        "more": "",
+        "movie": ""
+    },
+    {
+        "img": "",
+        "title": "Inhalar",
+        "description": "Ayuda a nebulizar y a respirar mejor",
+        "price": "77.000",
+        "color_style": "whitw",
+        "id": "11",
+        "category": "Aromas y Esencias(3)",
+        "more": "",
+        "movie": ""
+    }
+
+]

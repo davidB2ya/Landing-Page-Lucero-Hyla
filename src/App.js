@@ -9,6 +9,8 @@ import Movie from './components/Movie Intro/Movie';
 
 
 function App() {
+
+
   return (
     <div className="App">
       <Banner/>

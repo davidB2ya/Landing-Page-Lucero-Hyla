@@ -1,6 +1,6 @@
 import React from 'react';
-import img from '../../assets/Mobile/WhatsApp Image 2021-08-30 at 11.34 1.png';
-import trolley from '../../assets/Mobile/Group 8.png';
+import img from '../../assets/Mobile/Inicio/WhatsApp Image 2021-08-30 at 11.34 1.png';
+import trolley from '../../assets/Mobile/Inicio/Group 8.png';
 import style from './BannerLarge.module.css';
 
 function BannerLarge() {
