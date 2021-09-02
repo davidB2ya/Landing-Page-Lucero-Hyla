@@ -1,0 +1,43 @@
+.bannerLarge{
+    display: flex;
+    background-color:rgba(175, 227, 238, 1);
+    width: 100%;
+    height: 80px;
+}
+
+.profile{
+    position: absolute;
+    width : 70px;
+    height: 65px;
+    left: 20px;
+    top: 6px;
+}
+
+.text{
+    position: absolute;
+    width: 250px;
+    height: 34px;
+    left: 100px;
+    top: 18px;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.trolley{
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    right: 80px;
+    top: 25px;
+}
+
+.menu{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    left: 390px;
+    top: 25px;
+    font-size: 30px;
+}

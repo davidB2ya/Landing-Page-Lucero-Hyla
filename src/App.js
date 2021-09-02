@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner/Banner';
+import BannerLarge from './components/BannerLarge/BannerLarge';
+import Certificates from './components/Certificates-Hyla/Certificates';
+import Models from './components/Equipment Models/Models';
+import Header from './components/Header/Header';
+import InfoCard from './components/Info Card/InfoCard';
+import Movie from './components/Movie Intro/Movie';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner/>
+      {/* <BannerLarge/> */}
+      <Header/>
+      <Movie/>
+      <InfoCard/>
+      <Models/>
+      <Certificates/>
     </div>
   );
 }
