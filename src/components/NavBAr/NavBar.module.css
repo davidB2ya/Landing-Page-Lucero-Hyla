@@ -1,0 +1,16 @@
+@font-face{
+    font-family:"IstokWeb-Regular";
+    src:url(../../assets/Typography/IstokWeb-Regular.ttf);
+}
+  
+
+.NavBar{
+    /* background: rgba(84, 84, 84, 0.89); */
+    text-align: center;
+    font-size: 48px;
+    font-family:"IstokWeb-Regular";
+}
+
+li{
+    margin-bottom: 20px;
+}

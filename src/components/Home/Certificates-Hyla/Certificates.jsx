@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './Certificates.module.css'
-import Certificate1 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142846.png';
-import Certificate2 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142845.png';
-import Certificate3 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142844.png';
-import Certificate4 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142849.png';
-import Certificate5 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142847.png';
-import Certificate6 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142850.png';
-import Certificate7 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142848.png';
-import Certificate8 from '../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142851.png';
+import style from '../Certificates-Hyla/Certificates.module.css'
+import Certificate1 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142846.png';
+import Certificate2 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142845.png';
+import Certificate3 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142844.png';
+import Certificate4 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142849.png';
+import Certificate5 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142847.png';
+import Certificate6 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142850.png';
+import Certificate7 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142848.png';
+import Certificate8 from '../../../assets/Mobile/Inicio/Captura de pantalla 2021-09-01 142851.png';
 
 function Certificates() {
     return (

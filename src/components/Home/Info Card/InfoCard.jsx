@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './InfoCard.module.css'
-import dog from '../../assets/Mobile/Inicio/Group 72.png';
-import baby from '../../assets/Mobile/Inicio/Group 73.png';
-import story from '../../assets/Mobile/Inicio/Group 70.png';
+import style from '../Info Card/InfoCard.module.css'
+import dog from '../../../assets/Mobile/Inicio/Group 72.png';
+import baby from '../../../assets/Mobile/Inicio/Group 73.png';
+import story from '../../../assets/Mobile/Inicio/Group 70.png';
 
 function InfoCard() {
     return (

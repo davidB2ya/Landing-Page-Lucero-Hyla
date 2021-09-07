@@ -43,3 +43,8 @@
     top: 25px;
 
 }
+
+li{
+    text-decoration: none;
+    list-style: none;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player/lib';
-import intro from './Intro final.mp4'
-import style from './Movie.module.css'
+import intro from '../Movie Intro/Intro final.mp4'
+import style from '../Movie Intro/Movie.module.css'
 
 function Movie() {
     return (

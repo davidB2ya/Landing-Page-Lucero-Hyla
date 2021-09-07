@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './Models.module.css';
-import nst from '../../assets/Mobile/Inicio/Group 75.png';
-import steamer from '../../assets/Mobile/Inicio/Group 76.png';
-import est from '../../assets/Mobile/Inicio/Group 77.png';
+import style from '../Equipment Models/Models.module.css';
+import nst from '../../../assets/Mobile/Inicio/Group 75.png';
+import steamer from '../../../assets/Mobile/Inicio/Group 76.png';
+import est from '../../../assets/Mobile/Inicio/Group 77.png';
 
 function Models() {
     return (
