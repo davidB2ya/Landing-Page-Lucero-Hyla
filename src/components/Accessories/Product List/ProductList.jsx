@@ -1,21 +1,15 @@
-import React, { useReducer } from 'react';
+import React, { useContext} from 'react';
 import Product from '../Product/Product';
-import { stateInitial, reducerCart } from '../../../reducers/reducerCart';
-import { TYPES } from '../../../actions/actionCart'
+import {AppContext} from '../../Context/AppContext'
 
 const ProductList = () => {
 
-    const [state, dispatch] = useReducer(reducerCart, stateInitial)
-    const {products} = state
-
-    const addToCart = (id) =>{
-        dispatch({type:TYPES.ADD_TO_CART, payload:id})
-    };
-
+    const { products,addCart } = useContext(AppContext);
+    // console.log(products)
     return(
         <div >
             {products.map((product) => (
-               <Product key={product.id} data={product} addToCart={addToCart}/>
+               <Product key={product.id} data={product} addCart={addCart}/>
                ))}
 
         </div>

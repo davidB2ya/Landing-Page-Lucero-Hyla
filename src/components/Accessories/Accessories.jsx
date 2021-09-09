@@ -3,8 +3,7 @@ import style from '../Accessories/Accessories.module.css'
 import ProductList from './Product List/ProductList';
 
 
-function Accessories() {
-
+const Accessories =() => {
     return (
       <div className={style.accessories}>
           <ProductList/>

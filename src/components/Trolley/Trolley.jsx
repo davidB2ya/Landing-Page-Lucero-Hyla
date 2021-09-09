@@ -1,22 +1,16 @@
-import React, { useReducer } from 'react';
+import React, { useContext} from 'react';
 import style from './Trolley.module.css'
 import ProductCart from './Product Cart/ProductCart';
-import { stateInitial, reducerCart } from '../../reducers/reducerCart';
-import { TYPES } from '../../actions/actionCart'
+import {AppContext} from '../Context/AppContext'
 
 const Trolley = () => {
-    const [state, dispatch] = useReducer(reducerCart, stateInitial)
-    const {cart} = state
 
-    const clearCart = () => {
-        dispatch({type:TYPES.CLEAR_CART})
-    };
-    console.log(state)
+    const { cart, removeProduct, reduction, increase  } = useContext(AppContext);
     return (
       <div className={style.trolley}>
-           <button onClick={clearCart}>Limpiar Carrito</button>
+           <button >Limpiar Carrito</button>
            {cart.map((item, index) => (
-               <ProductCart key={index} data={item}/>
+            <ProductCart key={index} removeProduct={removeProduct} reduction={reduction} increase={increase} data={item}/>
                ))}     
       </div>
     );

@@ -8,7 +8,8 @@
         "id": "1",
         "category": "Equipo",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/QjJS3Sb/Group-15.png",
@@ -19,7 +20,8 @@
         "id": "2",
         "category": "Equipo",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/JsbCrLr/Group-14.png",
@@ -30,7 +32,8 @@
         "id": "3",
         "category": "Accesorio",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/D56J2cn/Group-9.png",
@@ -41,7 +44,8 @@
         "id": "4",
         "category": "Accesorio",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/JBqQbVN/Captura-de-pantalla-2021-08-30-171215.png",
@@ -52,7 +56,8 @@
         "id": "5",
         "category": "Equipo",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/g94VvDd/Group-40.png",
@@ -63,7 +68,8 @@
         "id": "6",
         "category": "Accesorio",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/YPMfhfq/Captura-de-pantalla-2021-08-30-171226.png",
@@ -74,7 +80,8 @@
         "id": "7",
         "category": "Aromas",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/bv3XM7k/Group-45.png",
@@ -85,7 +92,8 @@
         "id": "8",
         "category": "Accesorio",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/PmFLPhD/Group-44.png",
@@ -96,7 +104,8 @@
         "id": "9",
         "category": "Aromas",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/4mBXp8T/Captura-de-pantalla-2021-08-30-171227.png",
@@ -107,7 +116,8 @@
         "id": "10",
         "category": "Aromas",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     },
     {
         "img": "https://i.ibb.co/7QvqghP/Captura-de-pantalla-2021-08-30-171228.png",
@@ -118,7 +128,8 @@
         "id": "11",
         "category": "Aromas",
         "more": "",
-        "big_img": ""
+        "big_img": "",
+        "count": 1
     }
 
 ]

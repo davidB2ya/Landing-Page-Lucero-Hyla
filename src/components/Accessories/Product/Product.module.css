@@ -59,10 +59,12 @@
     position: relative;
     left: 75px;
     bottom: 175px;
+    cursor: pointer
 }
 
 .trolley{
     position: relative;
     left: 300px;
     bottom: 170px;
+    cursor: pointer
 }   
