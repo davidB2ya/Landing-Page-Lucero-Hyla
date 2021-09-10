@@ -1,0 +1,135 @@
+[
+    {
+        "img": "https://i.ibb.co/0tN992X/Group-23.png",
+        "title": "Rápida",
+        "description": "Aspiradora de mano",
+        "price": 396000,
+        "color_style": "white",
+        "id": "1",
+        "category": "Equipo",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/QjJS3Sb/Group-15.png",
+        "title": "Aera",
+        "description": "Purificador de Aire",
+        "price": 517000,
+        "color_style": "blue",
+        "id": "2",
+        "category": "Equipo",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/JsbCrLr/Group-14.png",
+        "title": "Limpia Vidrios",
+        "description": "Accesorios para Vidrios",
+        "price": 396000,
+        "color_style": "white",
+        "id": "3",
+        "category": "Accesorio",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/D56J2cn/Group-9.png",
+        "title": "Cepillo Mascota",
+        "description": "Aspira y Peina Mascotas",
+        "price": 207000,
+        "color_style": "blue",
+        "id": "4",
+        "category": "Accesorio",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/JBqQbVN/Captura-de-pantalla-2021-08-30-171215.png",
+        "title": "Libra",
+        "description": "Balanza de cocina",
+        "price": 140000,
+        "color_style": "white",
+        "id": "5",
+        "category": "Equipo",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/g94VvDd/Group-40.png",
+        "title": "Nimbus",
+        "description": "Lavado de alfombras",
+        "price": 1242000,
+        "color_style": "blue",
+        "id": "6",
+        "category": "Accesorio",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/YPMfhfq/Captura-de-pantalla-2021-08-30-171226.png",
+        "title": "Shampoo Pisos",
+        "description": "El mejor aliado del Nimbus",
+        "price": 85000,
+        "color_style": "white",
+        "id": "7",
+        "category": "Aromas",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/bv3XM7k/Group-45.png",
+        "title": "Set de Mopas",
+        "description": "Mientras aspiras, trapeas",
+        "price": 352000,
+        "color_style": "blue",
+        "id": "8",
+        "category": "Accesorio",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/PmFLPhD/Group-44.png",
+        "title": "Set Esencias",
+        "description": "Brisa Primavera, Kiwi, Manzana y Naranja",
+        "price": 77000,
+        "color_style": "white",
+        "id": "9",
+        "category": "Aromas",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/4mBXp8T/Captura-de-pantalla-2021-08-30-171227.png",
+        "title": "Desodorante",
+        "description": "Elimina los malos olores",
+        "price": 77000,
+        "color_style": "blue",
+        "id": "10",
+        "category": "Aromas",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    },
+    {
+        "img": "https://i.ibb.co/7QvqghP/Captura-de-pantalla-2021-08-30-171228.png",
+        "title": "Inhalar",
+        "description": "Ayuda a nebulizar y a respirar mejor",
+        "price": 77000,
+        "color_style": "whitw",
+        "id": "11",
+        "category": "Aromas",
+        "more": "",
+        "big_img": "",
+        "count": 1
+    }
+
+]

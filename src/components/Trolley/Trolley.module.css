@@ -1,0 +1,29 @@
+.trolley{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap:1rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-items: center;
+}
+
+/* Small (sm) */ 
+@media (min-width: 640px) { /* ... */ } 
+ 
+/* Medium (md) */ 
+@media (min-width: 768px) { /* ... */ } 
+
+/* Large (lg) */ 
+@media (max-width: 1024px) { /* ... */ } 
+/* 
+.trolley{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  */
+
+/* Extra Large (xl) */ 
+@media (min-width: 1280px) { /* ... */ }

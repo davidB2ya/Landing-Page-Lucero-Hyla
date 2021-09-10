@@ -1,0 +1,93 @@
+@font-face{
+    font-family:"IstokWeb-Regular";
+    src:url(../../../assets/Typography/IstokWeb-Regular.ttf);
+  }
+  
+@font-face{
+    font-family:"IstokWeb-Bold";
+    src:url(../../../assets/Typography/IstokWeb-Bold.ttf);
+}
+
+.product{
+    background-color: white;
+    border-radius: 20px;
+    width: 360px;
+    height: 90px;
+    margin: 15px;
+    color:rgba(65, 64, 66, 1)
+}
+
+.img{
+    position: relative;
+    left:10px;
+    top: 11px;
+    height: 68px;
+}
+
+.title{
+    font-family:"IstokWeb-Bold";
+    color: #7CC5FF;
+    font-size: 18px;
+    position: relative;
+    left: 110px;
+    bottom: 80px; ;
+}
+
+.price{
+    font-family:"IstokWeb-Regular";
+    position: relative;
+    left: 270px;
+    bottom: 120px;
+}
+
+.line{
+    position: relative;
+    left: 110px;
+    bottom: 160px;
+}
+
+.description{
+    font-family:"IstokWeb-Regular";
+    position: relative;
+    left: 110px;
+    bottom: 195px;
+    width: 100px;
+}
+
+.more{
+    position: relative;
+    left: 7rem;
+    bottom: 174px;
+    width: 20px;
+    height: 20px;
+    color:rgba(65, 64, 66, 1)
+    
+}
+
+.subtr{
+    position: relative;
+    left: 7rem;
+    bottom: 255px;
+    width: 20px;
+    height: 20px;
+    color:rgba(65, 64, 66, 1)
+    
+}
+
+.count{
+    position: relative;
+    left:8.6rem;
+    bottom: 218px;
+    width: 20px;
+    height: 20px;
+    color:rgba(65, 64, 66, 1)
+}
+
+.remove{
+    position: relative;
+    left: 300px;
+    bottom: 170px;
+    cursor:pointer;
+    border: hidden;
+    background-color: transparent;
+}   

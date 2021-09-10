@@ -1,0 +1,45 @@
+.header{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mounting{
+    margin-top: 10px;
+    width: 100%;
+}
+
+ 
+/* Medium (md) */ 
+@media (min-width: 768px) { 
+
+    .header{
+        font-size: 24px;
+    }
+
+    .mounting{
+        height: 120px;
+    }
+} 
+ 
+/* Large (lg) */ 
+@media (min-width: 1024px) { 
+    
+    .header{
+        font-size: 26px;
+    }
+
+    .mounting{
+        height: 140px;
+    }
+} 
+ 
+/* Extra Large (xl) */ 
+@media (min-width: 1280px) { 
+    .header{
+        font-size: 30px;
+    }
+
+    .mounting{
+        height: 180px;
+    }
+}

@@ -1,0 +1,141 @@
+@font-face{
+    font-family:"IstokWeb-Regular";
+    src:url(../../assets/Typography/IstokWeb-Regular.ttf);
+  }
+
+.banner{
+    position: relative;
+    display: flex;
+    background-color:rgba(175, 227, 238, 1);
+    width: 100%;
+    height: 71px;
+}
+
+.profile{
+    position: absolute;
+    width :68px;
+    height: 60px;
+    left: 10px;
+    top: 5px;
+}
+
+.text{
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    left: 86px;
+    top: 18px;
+    text-align: left;
+    font-size: 14px;
+    font-family:"IstokWeb-Regular";
+}
+
+.menu{
+    position: absolute;
+    left: 340px;
+    top: 25px;
+
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: rgba(26, 35, 38, 1) ;
+}
+
+.count{
+    background-color: rgb(255, 45, 45);
+    min-width: 20px;
+    height: 20px;
+    border-radius: 5pc;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+    right: 55px;
+}
+
+.cartCount{
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    left: 280px;
+    top: 17px;
+}
+
+.menuSecundario{
+    visibility: hidden;
+}
+
+/* Small (sm) */ 
+@media (min-width: 600px) { 
+    .menu{
+        left: 520px;
+    } 
+
+    
+    .cartCount{
+        left: 450px; 
+    }
+
+} 
+ 
+/* Medium (md) */ 
+@media (min-width: 768px) { 
+    .menuSecundario{
+        visibility: visible;
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        margin-left: 230px;
+        margin-top: 25px;
+        font-size: 20px;
+
+    }
+
+    .menu{
+        visibility: hidden;
+    
+    }
+
+    .cartCount{
+        left: 680px; 
+    }
+
+ } 
+ 
+/* Large (lg) */ 
+@media (min-width: 1024px) {
+    .cartCount{
+        left: 940px; 
+    }
+   
+    .menuSecundario{
+        width: 450px;
+        margin-left: 400px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    
+ } 
+ 
+/* Extra Large (xl) */ 
+@media (min-width: 1280px) { 
+    
+    .cartCount{
+        left: 1200px; 
+    }
+   
+    .menuSecundario{
+        width: 550px;
+        margin-left: 500px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+ }
