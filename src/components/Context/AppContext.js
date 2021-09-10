@@ -5,11 +5,12 @@ export const AppContext = React.createContext();
 
 export class AppProvider extends Component {
 
+
     state = {
         products: list,
         cart: [],
-        total: 0
-    
+        total: 0,
+        open: false
     }
 
     addCart = (_id) =>{
@@ -18,13 +19,14 @@ export class AppProvider extends Component {
             return item.id !== _id
         })
         if(check){
-            const data = products.filter(product =>{
-                return product.id === _id
+        const data = products.filter(product =>{
+                return product.id === _id 
             })
             this.setState({cart: [...cart,...data]})
         }else{
-            alert("The product has been added to cart.")
+            alert("El producto ha sido añadido al carrito.")
         }
+        
     };
     
     reduction = _id =>{
@@ -50,11 +52,12 @@ export class AppProvider extends Component {
     };
 
     removeProduct = _id =>{
-        if(window.confirm("Do you want to delete this product?")){
+        if(window.confirm("¿Quieres eliminar este producto?")){
             const {cart} = this.state;
             cart.forEach((item, index) =>{
                 if(item.id === _id){
-                    cart.splice(index, 1)
+                    cart.splice(index, 1); 
+                    item.count >= 1 ? item.count = 1 : item.count =1;
                 }
             })
             this.setState({cart: cart});
@@ -85,20 +88,41 @@ export class AppProvider extends Component {
         if(dataTotal !== null){
             this.setState({total: dataTotal});
         }
-    }
+    };
    
+    removeAll = ()=> {
+        const{cart} = this.state;
+        if(window.confirm("¿Desea Borrar Todo el Carrito?")){            
+            cart.forEach((item) =>{
+                if(item.id !== 1){ 
+                    item.count >= 1 ? item.count = 1 : item.count =1;
+                }
+            })
+            this.setState({cart: cart});
+        this.setState({cart:[]});
+        this.setState({total: 0});
+        
+        }
+            
+    }
+    
+    openModal = (_id) =>{
+        this.setState({open: !this.state.open})
+        
+    }
+
 
     render() {
-        const {products, cart,total} = this.state;
-        const {addCart,reduction,increase,removeProduct,getTotal} = this;
+        const {products, cart,total, open} = this.state;
+        const {addCart,reduction,increase,removeProduct,getTotal,removeAll,openModal} = this;
         return (
             <AppContext.Provider 
-            value={{products, addCart, cart, reduction,increase,removeProduct,total,getTotal}}>
+            value={{products, addCart, cart, reduction,increase,removeProduct,total,getTotal,removeAll,open,openModal}}>
                 {this.props.children}
             </AppContext.Provider>
         )
     }
 
 
-}
+};
 

@@ -5,13 +5,15 @@ import {AppContext} from '../Context/AppContext'
 
 const Trolley = () => {
 
-    const { cart, removeProduct, reduction, increase  } = useContext(AppContext);
+    const { cart, removeProduct, reduction, increase, removeAll, openModal  } = useContext(AppContext);
     return (
       <div className={style.trolley}>
-           <button >Limpiar Carrito</button>
+           
            {cart.map((item, index) => (
-            <ProductCart key={index} removeProduct={removeProduct} reduction={reduction} increase={increase} data={item}/>
-               ))}     
+            <ProductCart key={index} removeProduct={removeProduct} reduction={reduction} increase={increase} openModal={openModal} data={item}/>
+               ))} 
+
+            <button onClick={removeAll}>Limpiar Carrito</button>       
       </div>
     );
 }

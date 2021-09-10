@@ -3,7 +3,7 @@ import style from '../Home/Home.module.css'
 import Certificates from './Certificates-Hyla/Certificates';
 import Models from './Equipment Models/Models';
 import Header from './Header/Header';
-import InfoCard from './Info Card/InfoCard';
+// import InfoCard from './Info Card/InfoCard';
 import Movie from './Movie Intro/Movie';
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
       <div className={style.home}>
         <Header/>
         <Movie/>
-        <InfoCard/>
+        {/* <InfoCard/> */}
         <Models/>
         <Certificates/>
       </div>

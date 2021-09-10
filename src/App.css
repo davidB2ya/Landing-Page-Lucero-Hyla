@@ -1,9 +1,10 @@
-/* .App {
-  text-align: center;
-} */
+.App{
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
+}
 
- /* for desktop */
- .whatsapp_float {
+/* for desktop */
+ /* .whatsapp_float {
   position: fixed;
   width: 60px;
   height: 60px;
@@ -20,10 +21,10 @@
 
 .whatsapp-icon {
   margin-top: 16px;
-}
+} */
 
 /* for mobile */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .whatsapp-icon {
       margin-top: 10px;
   }
@@ -35,4 +36,4 @@
       right: 10px;
       font-size: 22px;
   }
-}
+} */

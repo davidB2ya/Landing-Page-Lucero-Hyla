@@ -8,6 +8,7 @@ import Accessories from './components/Accessories/Accessories';
 import Trolley from './components/Trolley/Trolley';
 import NavBar from './components/NavBAr/NavBar';
 import { AppProvider } from './components/Context/AppContext';
+import WhatsApp from './components/WhatsApp/WhatsApp';
 
 const App = () => {
   return (
@@ -22,15 +23,15 @@ const App = () => {
             <Route path='/home/trolley'><Trolley/></Route>
             <Route path='/home/navbar'><NavBar/></Route>
         </Switch>
-      
-        <a
+        <WhatsApp/>
+        {/* <a
           href="https://wa.me/573052290670"
           class="whatsapp_float"
           target="_blank"
           rel="noopener noreferrer"
         >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
-        </a>
+        </a> */}
       </div>
     </AppProvider>
   );

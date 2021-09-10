@@ -8,10 +8,8 @@
   src:url(../src/assets/Typography/IstokWeb-Bold.ttf);
 }
 
-
 body {
   margin: 0;
-  overflow-y: scroll;
   background-color:  #D6E2E5 ;
   font-family: 'IstokWeb-Bold';
 }

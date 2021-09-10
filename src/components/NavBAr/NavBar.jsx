@@ -6,9 +6,9 @@ function NavBar() {
     return (
         <div className={style.NavBar}>
             <ul>
-                <li><Link to='/home'>Inicio</Link></li>
-                <li><Link to='/catalogue'>Catálogos</Link></li>
-                <li><Link to='/home/accessories'>Accesorios</Link></li>
+                <li><Link className={style.link} to='/home'>Inicio</Link></li>
+                <li><Link className={style.link} to='/catalogue'>Catálogos</Link></li>
+                <li><Link className={style.link} to='/home/accessories'>Accesorios</Link></li>
             </ul>
         </div>
     )

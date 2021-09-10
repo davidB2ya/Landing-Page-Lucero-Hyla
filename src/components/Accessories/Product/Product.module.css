@@ -64,7 +64,9 @@
 
 .trolley{
     position: relative;
-    left: 300px;
+    left: 280px;
     bottom: 170px;
-    cursor: pointer
+    cursor: pointer;
+    border: hidden;
+    background-color: transparent;
 }   
