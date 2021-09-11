@@ -8,17 +8,19 @@ function Models() {
     return (
         <div className={style.models}>
             <span className={style.text}>Modelos Recientes</span>
-            <div>
-                <img className={style.nst} src={nst} alt='nst' />
-                <span>NST</span>
-            </div>
-            <div>
-                <img className={style.steamer} src={steamer} alt='steamer'/>
-                <span>STEAMER</span>
-            </div>
-            <div>
-                <img className={style.est} src={est} alt='est' />
-                <span>EST</span>
+            <div className={style.conjunto}>
+                <div className={style.nst} >
+                    <img src={nst} alt='nst' />
+                    <span>NST</span>
+                </div>
+                <div className={style.steamer}>
+                    <img  src={steamer} alt='steamer'/>
+                   <span>STEAMER</span>
+                </div>
+                <div className={style.est}>
+                    <img  src={est} alt='est' />
+                    <span>EST</span>
+                </div>
             </div>
         </div>
     )

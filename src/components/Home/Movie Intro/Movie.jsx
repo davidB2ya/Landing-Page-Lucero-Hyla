@@ -12,8 +12,6 @@ function Movie() {
             <div className={style.movie}>
                 <ReactPlayer 
                     url={intro}
-                    // width='90%' 
-                    // height='220px'
                     playing
                     volume='0'
                     controls

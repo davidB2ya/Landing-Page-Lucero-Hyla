@@ -1,6 +1,7 @@
 import React from 'react';
 import style from '../Home/Home.module.css'
 import Certificates from './Certificates-Hyla/Certificates';
+import { SliderData } from './Certificates-Hyla/SliderData';
 import Models from './Equipment Models/Models';
 import Header from './Header/Header';
 // import InfoCard from './Info Card/InfoCard';
@@ -14,7 +15,7 @@ function Home() {
         <Movie/>
         {/* <InfoCard/> */}
         <Models/>
-        <Certificates/>
+        <Certificates slides={SliderData}/>
       </div>
     );
 }
