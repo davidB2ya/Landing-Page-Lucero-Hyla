@@ -6,7 +6,6 @@ const WhatsApp = () => {
         <div class='whatsapp_float'>
             <a
                 href="https://wa.me/573052290670"
-                // href="https://wa.link/341d30"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
