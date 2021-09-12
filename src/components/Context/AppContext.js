@@ -10,7 +10,8 @@ export class AppProvider extends Component {
         products: list,
         cart: [],
         total: 0,
-        open: false
+        open: false,
+        waMsj: ""
     }
 
     addCart = (_id) =>{
@@ -110,7 +111,6 @@ export class AppProvider extends Component {
         this.setState({open: !this.state.open})
         
     }
-
 
     render() {
         const {products, cart,total, open} = this.state;
