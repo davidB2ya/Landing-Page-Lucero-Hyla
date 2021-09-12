@@ -1,0 +1,35 @@
+
+export const SliderData = [
+    {
+        image:
+            'https://i.ibb.co/sKxSK05/Captura-de-pantalla-2021-09-01-142845.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/SrbHF57/Captura-de-pantalla-2021-09-01-142847.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/yP6sX2N/Captura-de-pantalla-2021-09-01-142848.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/f4BVkDs/Captura-de-pantalla-2021-09-01-142846.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/PFH03pV/Captura-de-pantalla-2021-09-01-142844.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/9sHx5vC/Captura-de-pantalla-2021-09-01-142850.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/4Sg94qt/Captura-de-pantalla-2021-09-01-142849.png'
+    },
+    {
+        image:
+            'https://i.ibb.co/GcJKj7D/Captura-de-pantalla-2021-09-01-142851.png'
+    },
+  ];
