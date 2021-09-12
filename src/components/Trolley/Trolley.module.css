@@ -4,10 +4,31 @@
     gap:1rem;
     overflow-x: hidden;
     overflow-y: hidden;
-    /* display: flex;
-    flex-direction: column; */
     align-items: center;
     justify-items: center;
+}
+
+.TotalPriceContainer{
+    background-color: rgba(138, 195, 204, 1);
+    border-radius: 20px;
+    width: 360px;
+    height: 90px;
+    margin: 15px;
+    color:rgba(65, 64, 66, 1);
+    text-align: center;
+}
+
+.info{
+   height: 30px;
+}
+
+.WhatsappContainer{
+    display: flex;
+    justify-content:space-around;
+}
+
+.clearCart{
+    height: 40px;
 }
 
 /* Small (sm) */ 
