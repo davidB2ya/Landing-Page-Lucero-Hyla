@@ -11,7 +11,6 @@ export class AppProvider extends Component {
         cart: [],
         total: 0,
         open: false,
-        waMsj: ""
     }
 
     addCart = (_id) =>{
