@@ -1,3 +1,56 @@
+# Tetris-Colaborativo
+
+_Este proyecto como bien dice en el título es acerca de una Landing Page que se desarrolló para una vendedora de la empresa Hyla_
+
+## Comenzando 🚀
+
+_Aquí debajo dejamos el link del proyecto desplegado_
+
+ **https://landing-page-lucero-hyla.vercel.app/** .
+
+
+### Pre-requisitos 📋
+
+_Solo se requiere de un navegador_
+
+```
+Google Chrome
+Mozilla Firefox
+
+```
+
+## Construido con 🛠️
+
+_Este proyecto fue realizado con HTML, CSS , JS y React_
+
+## Wiki 📖
+
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://https://github.com/davidB2ya/Portafolio)
+
+## Autores ✒️
+
+_Bueno este proyecto fue realizado por :_
+
+* **David Bedoya** - *Developer* 
+* **Lorena Guerrero** - *Formadora*
+* **Juliana Fajardo** - *Formadora*
+* **Diego Romero** - *Formadora*
+* **Moises Ariza** - *Formadora*
+
+## Agradecimientos 👏
+* **Juan David Esteves** - *Amigo* 
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre nuestro proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+* etc.
+
+
+
+---
+⌨️ con ❤️ por [David Bedoya] (https://github.com/davidB2ya) 😊 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
