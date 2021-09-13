@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.container{
+    height: 165px;
+    width: 510px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    font-family: 'Nunito', sans-serif;
+    scale:initial;
+}
+
+
+.btn {
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: #212529;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+     }
+
+.imgContainer{
+    width: 150px;
+    height: 104px;
+    /* padding: 16px 0 0 16px; */
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.img{
+    width: 150px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 55px 0 16px;
+}
+
+.information .title{
+    padding-bottom: 0px;
+}
+
+.information .description{
+    padding-bottom: 20px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+
+.information .price{
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    z-index: 1000;
+   }
+
+.modalV{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modalNV{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.modalContainer{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+    position: relative;
+}
+
+.headerModal{
+    padding: 10px;
+    background: #7CC5FF;
+    color: white;
+}
+
+.labelModal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* 
+.btn_modal{
+display: none;
+} */

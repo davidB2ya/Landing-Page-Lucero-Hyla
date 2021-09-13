@@ -13,7 +13,7 @@ function Movie() {
                 <ReactPlayer 
                     url={intro}
                     playing
-                    volume='0'
+                    volume='100'
                     controls
                 
                 />  

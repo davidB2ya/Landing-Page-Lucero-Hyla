@@ -10,7 +10,6 @@ export class AppProvider extends Component {
         products: list,
         cart: [],
         total: 0,
-        open: false,
     }
 
     addCart = (_id) =>{
@@ -106,17 +105,13 @@ export class AppProvider extends Component {
             
     }
     
-    openModal = (_id) =>{
-        this.setState({open: !this.state.open})
-        
-    }
 
     render() {
-        const {products, cart,total, open} = this.state;
-        const {addCart,reduction,increase,removeProduct,getTotal,removeAll,openModal} = this;
+        const {products, cart,total} = this.state;
+        const {addCart,reduction,increase,removeProduct,getTotal,removeAll} = this;
         return (
             <AppContext.Provider 
-            value={{products, addCart, cart, reduction,increase,removeProduct,total,getTotal,removeAll,open,openModal}}>
+            value={{products, addCart, cart, reduction,increase,removeProduct,total,getTotal,removeAll}}>
                 {this.props.children}
             </AppContext.Provider>
         )

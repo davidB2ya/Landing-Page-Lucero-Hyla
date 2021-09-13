@@ -5,3 +5,21 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.btns{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 80px));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    
+}
+
+.btn{
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(138, 195, 204, 1);
+    color:rgba(65, 64, 66, 1);
+    padding: 5px;
+    cursor: pointer;
+}
