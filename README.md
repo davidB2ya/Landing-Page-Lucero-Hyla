@@ -34,8 +34,8 @@ _Bueno este proyecto fue realizado por :_
 * **David Bedoya** - *Developer* 
 * **Lorena Guerrero** - *Formadora*
 * **Juliana Fajardo** - *Formadora*
-* **Diego Romero** - *Formadora*
-* **Moises Ariza** - *Formadora*
+* **Diego Romero** - *Formador*
+* **Moises Ariza** - *Formador*
 
 ## Agradecimientos 👏
 * **Juan David Esteves** - *Amigo* 
